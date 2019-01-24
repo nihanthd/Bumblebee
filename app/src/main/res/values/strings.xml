@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Bumblebee</string>
+    <string name="pin_1">Pin 1</string>
+    <string name="pin_2">Pin 2</string>
+    <string name="pin_3">Pin 3</string>
+    <string name="pin_4">Pin 4</string>
+    <string name="pin_5">Pin 5</string>
+    <string name="pin_6">Pin 6</string>
+    <string name="pin_7">Pin 7</string>
+    <string name="pin_8">Pin 8</string>
+    <string name="pin_9">Pin 9</string>
+    <string name="pin_10">Pin 10</string>
+    <string name="pin_11">Pin 11</string>
+    <string name="pin_12">Pin 12</string>
+    <string name="pin_13">Pin 13</string>
+    <string name="pin_14">Pin 14</string>
+    <string name="pin_15">Pin 15</string>
+    <string name="end">No more Pins</string>
+
+</resources>

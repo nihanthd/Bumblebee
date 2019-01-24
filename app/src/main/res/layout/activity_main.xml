@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/pi_table"
+        android:layout_width="395dp"
+        android:layout_height="715dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_1" />
+
+            <Switch
+                android:id="@+id/pin_1"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_2" />
+
+            <Switch
+                android:id="@+id/pin_2"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_3" />
+
+            <Switch
+                android:id="@+id/pin_3"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_4" />
+
+            <Switch
+                android:id="@+id/pin_4"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_5" />
+
+            <Switch
+                android:id="@+id/pin_5"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_6" />
+
+            <Switch
+                android:id="@+id/pin_6"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_7" />
+
+            <Switch
+                android:id="@+id/pin_7"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_8" />
+
+            <Switch
+                android:id="@+id/pin_8"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_9" />
+
+            <Switch
+                android:id="@+id/pin_9"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_10" />
+
+            <Switch
+                android:id="@+id/pin_10"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_11" />
+
+            <Switch
+                android:id="@+id/pin_11"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_12" />
+
+            <Switch
+                android:id="@+id/pin_12"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_13" />
+
+            <Switch
+                android:id="@+id/pin_13"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_14" />
+
+            <Switch
+                android:id="@+id/pin_14"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="5dp">
+
+            <TextView android:text="@string/pin_15" />
+
+            <Switch
+                android:id="@+id/pin_15"
+                android:paddingStart="300dp"
+                android:paddingEnd="1dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pi_table"/>
+
+</RelativeLayout>
